@@ -8,13 +8,13 @@ div.section.hero-container {
 
 .hero {
     position: relative;
-    padding: 40px 24px;
+    padding: 0px;
     min-height: 300px;
 }
 
 .hero h1 {
     position: absolute;
-    bottom: -315px;
+    bottom: 20px;
     left: 32px;
     line-height: 50px;
     color: #111; /* Black text */
@@ -29,12 +29,7 @@ div.section.hero-container {
 }
 
 .hero picture {
-    height: fit-content;
-    position: absolute;
-    z-index: -1;
-    inset: 0;
-    object-fit: cover;
-    box-sizing: border-box;
+    padding: 0px;
 }
 
 .hero img {
@@ -45,6 +40,6 @@ div.section.hero-container {
 
 @media (width >= 900px) {
     .hero {
-        padding: 40px 32px;
+        padding: 0px;
     }
 }
